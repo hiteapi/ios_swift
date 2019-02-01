@@ -3,5 +3,5 @@ before_script:
   - swift package --package-path HelloWorld  generate-xcodeproj
 language: objective-c
 xcode_project: HelloWorld/HelloWorld.xcodeproj # path to your xcodeproj folder
-xcode_scheme: HelloWorldTests
+xcode_scheme: HelloWorld-Package
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPhone XS
